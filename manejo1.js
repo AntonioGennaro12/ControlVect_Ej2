@@ -28,17 +28,20 @@ function selecProd() {
     }
 }
      
-function imprimeEstado () {
-    prod1.textContent = productos [0];
-    cant1.textContent = "Cantidad: "+cantidades [0];
-    prod2.textContent = productos [1];
-    cant2.textContent = "Cantidad: "+cantidades [1];
-    prod3.textContent = productos [2];
-    cant3.textContent = "Cantidad: "+cantidades [2];
-
-}
-
 function compraProd() {
     cantidades [index] -= 1;
-    imprimeEstado ();
+    switch (index) {
+       case 0:
+            //prod1.textContent = productos [0];
+            cant1.textContent = "Cantidad: "+cantidades [0];
+            break;
+        case 1:    
+            //prod2.textContent = productos [1];
+            cant2.textContent = "Cantidad: "+cantidades [1];
+            break;
+        case 2:
+            //prod3.textContent = productos [2];
+            cant3.textContent = "Cantidad: "+cantidades [2];
+            break;
+        }
 }

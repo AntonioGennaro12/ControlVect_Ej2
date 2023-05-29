@@ -5,17 +5,25 @@ body {
 }
 
 #div-ppal {
+    width: 34vw;
     border-style: double;
-    border-color: blue;
     border-width: 2px;
     display: grid;
     place-content: center;
+    margin-bottom: 10px;
 }
 
 #div-salida {
+    width: 34vw;
+    border-style: solid;
+    border-width: 2px;
     display: flex;
+    place-content: center;
 }
 
 .producto {
-    margin: 20px;
+    width: 10vw;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
 }
