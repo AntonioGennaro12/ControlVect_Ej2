@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="disenio.css">
+</head>
+<body>
+    <div di="div-ppal">
+        <label for="sel-prod">Seleccione Producto a Comprar</label>
+        <br>
+        <select name="" id="sel-prod" onchange="selecProd()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button id="mi-boton" onclick="compraProd()">Comprar</button>
+    </div>
+    <div id="div-salida">
+        <div class="producto" id="div-sal1">
+            <p id="prod-1">Producto: 1</p>
+            <p id="cant-1">Cantidad: 100</p>
+        </div>
+        <div class="producto" id="div-sal2">
+            <p id="prod-2">Producto: 2</p>
+            <p id="cant-2">Cantidad: 100</p>
+        </div>
+        <div class="producto" id="div-sal3">
+            <p id="prod-3">Producto: 3</p>
+            <p id="cant-3">Cantidad: 100</p>
+        </div>
+    </div>
+   
+    <script src="manejo1.js"></script>
+</body>
+</html>

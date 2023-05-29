@@ -1,0 +1,21 @@
+body {
+    background-color: antiquewhite;
+    display: grid;
+    place-content: center;
+}
+
+#div-ppal {
+    border-style: double;
+    border-color: blue;
+    border-width: 2px;
+    display: grid;
+    place-content: center;
+}
+
+#div-salida {
+    display: flex;
+}
+
+.producto {
+    margin: 20px;
+}
